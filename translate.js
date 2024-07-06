@@ -94,7 +94,7 @@ i18next.init({
                 "Address": " العنوان ",
                 "Menu": " القائمة ",
                 "AboutUs": " معلومات عنا ",
-                "Services": " خدمات ",
+                "Services": " خدماتنا ",
                 "payment-plans": " خطط الدفع ",
                 "Quick-Links": " روابط سريعة ",
                 "Privacy-Policy": " سياسة الخصوصية ",
