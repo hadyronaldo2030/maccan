@@ -182,6 +182,14 @@ ul li a {
   margin-top: 8px;
   font-size: 16px;
 }
+/* mobile */
+@media screen and (max-width: 350px) {
+
+  .email p, .number p {
+    margin: 10px 0 10px;
+    font-size: 14px;
+  }
+}
 
 .box {
   margin-top: 30px;
@@ -208,7 +216,7 @@ ul li a {
   background-color: transparent;
   color: var(--main-color);
   font-size: 15px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   transition: 1s;
 }
 
@@ -392,10 +400,12 @@ ul li a {
 
 .contact-us .icons2 {
   width: 100%;
-  display: flex;
-  text-align: center;
-  padding-bottom: 20px;
-  flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .icons2 div{
   margin-top: 10px;
@@ -537,7 +547,12 @@ ul li a {
             hsla(0, 0%, 0%, 0));
   right: 0;
 }
-
+.dropdown-toggle{
+  width: 115px;
+  background: transparent;
+  color: #ffb300;
+  border: 1px solid;
+}
 
 /* Show sidebar */
 .show-sidebar {
